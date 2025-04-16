@@ -1,0 +1,87 @@
+/* Reset básico e fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  :root {
+    --bg-color: hsl(0, 0%, 8%);
+    --card-color: hsl(0, 0%, 12%);
+    --text-color: hsl(0, 0%, 100%);
+    --accent-color: hsl(75, 94%, 57%);
+    --button-color: hsl(0, 0%, 20%);
+    --button-hover: hsl(75, 94%, 57%);
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+  }
+  
+  .profile-card {
+    background-color: var(--card-color);
+    padding: 2.4rem;
+    border-radius: 1.2rem;
+    max-width: 36rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  
+  .profile-image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .profile-location {
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .profile-bio {
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 70%);
+    margin-top: 1.5rem;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .btn {
+    display: block;
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--button-hover);
+    color: var(--card-color);
+  }
+  
