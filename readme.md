@@ -10,9 +10,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/solução-profile.png)
+![](./assets/images/Screenshot_15-2-2026_175849_127.0.0.1.jpeg)
 
 ### Links
 
@@ -41,6 +39,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JavaScript
+
+### Continued development
+
+-Add Light Mode. 
+-CSS animation 
+-Introduction to JavaScript
 
 ## 👤 Author
 
